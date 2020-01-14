@@ -12,6 +12,6 @@ after_failure:
 before_install: 
   - "pip install \"pip==${PYTHON_PIP_VERSION}\""
 install:
-  - pip install django==$DJANGO --quiet
+  - pip install django==$DJANGO_VERSION --quiet
 script: 
   - python manage.py
