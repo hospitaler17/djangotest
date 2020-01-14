@@ -10,7 +10,7 @@ python:
 after_failure: 
   - "dmesg | tail -n 100"
 before_install: 
-  - mysql -e 'create database test;' -u root
+  - mysql -e 'create database test;'
   - "pip install \"pip==${PYTHON_PIP_VERSION}\""
 install:
   - pip install -r requirements.txt
