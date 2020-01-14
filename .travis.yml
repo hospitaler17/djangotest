@@ -3,7 +3,8 @@ language: python
 env: 
   global: 
     - PYTHON_PIP_VERSION=19.2.3
-    - "DJANGO_VERSION=\">=1.10,<1.11\""
+    - DJANGO_VERSION=2.2.9
+    - DJANGO_VERSION=3.0.2
 python:
   - 2.7
   - 3.6
